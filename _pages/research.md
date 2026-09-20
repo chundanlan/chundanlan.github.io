@@ -13,7 +13,7 @@ classes: research-no-title
 
 I examine whether the adoption of the Current Expected Credit Losses (CECL) standard affects information transmission within bank holding companies. Using a difference-in-differences design based on a within-analyst comparison of earnings forecasts for borrowers and non-borrowers, I find that bank-affiliated analysts issue more accurate forecasts for borrowers after CECL adoption. The effect persists at long forecast horizons, strengthens over time, and increases with the magnitude of the CECL transition impact. Additional analyses show that both macro-relevant and borrower-specific information contribute to the effect. Overall, I provide the first evidence that CECL adoption has unintended consequences for cross-divisional information flows within financial conglomerates, with implications for banking regulators and accounting standard setters.
 
-<p class="paper-note">Presented at the University of Minnesota and the Financial Accounting Standards Board.</p>
+<p class="paper-note">Presented at the University of Minnesota, the Financial Accounting Standards Board, and HARC 2027 (scheduled).</p>
 
 
 ## Working Papers
