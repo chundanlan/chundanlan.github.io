@@ -147,6 +147,7 @@
     border-bottom: 1px solid var(--global-border-color);
   }
 
+  /* Individual course */
   .course-item {
     margin-bottom: 1.7rem;
 
@@ -155,46 +156,62 @@
       margin-bottom: 0.3rem;
       font-size: 0.92rem;
       line-height: 1.4;
-      font-weight: 400;
+      font-weight: 400 !important;
     }
 
+    /* Only the course title is bold */
     h3 strong {
-      font-weight: 700;
+      font-weight: 700 !important;
     }
   }
 
-  /* University name: same line as course title, not bold */
+  /* University name: same line as course title, regular weight */
   .course-school {
-    font-weight: 400;
+    font-weight: 400 !important;
   }
 
-  /* Student category / year / syllabus */
+  /* Student category / instructor / semester / syllabus */
   .course-details {
-    margin: 0;
-    padding-left: 1.5rem;
-    font-size: 0.84rem;
+    margin: 0.25rem 0 0 1.4rem;
+    padding-left: 1rem;
+    font-size: 0.80rem !important;
     line-height: 1.45;
     text-align: left;
+
+    li {
+      margin-bottom: 0.15rem;
+      font-size: 0.80rem !important;
+      line-height: 1.45;
+      font-weight: 400 !important;
+    }
+
+    li a {
+      font-size: inherit !important;
+      font-weight: 400 !important;
+    }
   }
 
+  /* Undergraduate / Graduate labels */
   .course-level {
+    font-size: inherit !important;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 400 !important;
   }
 
   .course-syllabus {
-    font-weight: 400;
+    font-weight: 400 !important;
   }
 
   /* Teaching award */
   .course-award {
-  margin: 0.15rem 0 0;
-  padding-left: 0 !important;
-  font-size: 0.80rem;
-  line-height: 1.45;
-  font-style: italic;
-  color: var(--global-text-color);
-  opacity: 0.78;
+    margin: 0.15rem 0 0;
+    padding-left: 0 !important;
+    font-size: 0.80rem !important;
+    line-height: 1.45;
+    font-style: italic;
+    font-weight: 400 !important;
+    color: var(--global-text-color);
+    opacity: 0.78;
   }
 }
 
@@ -811,7 +828,7 @@
     margin-top: 0.8rem;
   }
 
-  .teaching-page .teaching-university {
+  .teaching-page h2:first-child {
     margin-top: 0.8rem;
   }
 }
@@ -1027,7 +1044,7 @@
      Teaching mobile spacing
      ------------------------------------------------------------------------ */
 
-  .teaching-page .teaching-university {
+  .teaching-page h2:first-child {
     margin-top: 0.6rem;
   }
 }
@@ -1089,15 +1106,46 @@
    Global link style
    ========================================================================== */
 
+/*
+ * Keep content links in the theme's link color, but remove underlines and
+ * bottom-border effects in all interaction states. Navigation styling is
+ * intentionally excluded so the active-page indicator remains unchanged.
+ */
+.page a,
 .page__content a,
-.sidebar a {
-  text-decoration: none;
+.home-page a,
+.research-page a,
+.teaching-page a,
+.sidebar a,
+.page a:visited,
+.page__content a:visited,
+.home-page a:visited,
+.research-page a:visited,
+.teaching-page a:visited,
+.sidebar a:visited,
+.page a:hover,
+.page__content a:hover,
+.home-page a:hover,
+.research-page a:hover,
+.teaching-page a:hover,
+.sidebar a:hover,
+.page a:focus,
+.page__content a:focus,
+.home-page a:focus,
+.research-page a:focus,
+.teaching-page a:focus,
+.sidebar a:focus,
+.page a:active,
+.page__content a:active,
+.home-page a:active,
+.research-page a:active,
+.teaching-page a:active,
+.sidebar a:active {
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
 }
 
-.page__content a:hover,
-.sidebar a:hover {
-  text-decoration: underline;
-}
 
 /* Coauthors */
 .paper-authors {
