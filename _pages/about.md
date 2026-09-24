@@ -12,9 +12,21 @@ redirect_from:
 
 <p>Welcome to my website!</p>
 
-<p>I am a Ph.D. Candidate in Accounting at the Carlson School of Management, University of Minnesota, and am on the 2026–2027 job market. Prior to joining Carlson, I earned an M.S. in Accounting from The Chinese University of Hong Kong, Shenzhen, and a B.A. in Accounting from Southwestern University of Finance and Economics. I also gained industry experience at Guotai Junan Securities and the Shenzhen Stock Exchange.</p>
+<p>
+I am a Ph.D. Candidate in Accounting at the 
+<a href="https://carlsonschool.umn.edu/" target="_blank" rel="noopener noreferrer">Carlson School of Management</a>, 
+University of Minnesota. I expect to graduate in May 2027 and will be on the 2026-2027 academic job market. 
+Prior to joining Carlson, I earned an M.S. in Accounting from 
+<a href="https://www.cuhk.edu.cn/en" target="_blank" rel="noopener noreferrer">The Chinese University of Hong Kong, Shenzhen</a>, 
+and a B.A. in Accounting from 
+<a href="https://e.swufe.edu.cn/" target="_blank" rel="noopener noreferrer">Southwestern University of Finance and Economics</a>. 
+I also gained industry experience at 
+<a href="https://www.gtht.com/" target="_blank" rel="noopener noreferrer">Guotai Junan Securities</a> 
+and the 
+<a href="https://www.szse.cn/English/index.html" target="_blank" rel="noopener noreferrer">Shenzhen Stock Exchange</a>.
+</p>
 
-<p>My research examines the unintended consequences of regulatory changes in various contexts, such as accounting standards, securities regulation, and banking. I am broadly interested in how external regulatory forces and individual incentives shape the behavior of capital market participants, with a focus on information production and professional performance, especially among financial analysts.</p>
+<p>My research examines the unintended consequences of regulatory changes in various contexts, such as accounting standards, securities regulation, and banking. I am interested in how regulatory forces and incentives shape the behavior of capital market participants, especially among financial analysts. I use archival and survey methods and incorporate AI-based tools into my research.</p>
 
 <p>My teaching interests include financial accounting, accounting data analytics, and managerial accounting. At the University of Minnesota, I independently taught Introduction to Financial Reporting and received the Ph.D. Excellence in Teaching Award.</p>
 

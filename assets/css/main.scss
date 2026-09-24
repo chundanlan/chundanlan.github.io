@@ -136,56 +136,65 @@
   max-width: none;
   text-align: left;
 
-  .teaching-university {
+  /* Instructor / Teaching Assistant */
+  h2 {
     margin-top: 2rem;
-    margin-bottom: 1.4rem;
+    margin-bottom: 0.9rem;
     padding-bottom: 0.3rem;
     font-size: 1.08rem;
     line-height: 1.35;
     font-weight: 700;
-    text-align: left;
+    border-bottom: 1px solid var(--global-border-color);
   }
 
   .course-item {
     margin-bottom: 1.7rem;
-    text-align: left;
 
     h3 {
       margin-top: 1.3rem;
-      margin-bottom: 0.35rem;
+      margin-bottom: 0.3rem;
       font-size: 0.92rem;
-      line-height: 1.35;
+      line-height: 1.4;
+      font-weight: 400;
+    }
+
+    h3 strong {
       font-weight: 700;
-      text-align: left;
     }
   }
 
-  .course-year {
+  /* University name: same line as course title, not bold */
+  .course-school {
     font-weight: 400;
+  }
+
+  /* Student category / year / syllabus */
+  .course-details {
+    margin: 0;
+    padding-left: 1.5rem;
+    font-size: 0.84rem;
+    line-height: 1.45;
+    text-align: left;
   }
 
   .course-level {
-    font-size: 0.88em;
-    font-weight: 400;
-    color: var(--global-text-color);
-    opacity: 0.72;
-  }
-
-  .course-role {
-    margin: 0;
-    font-size: 0.86rem;
-    line-height: 1.5;
-    text-align: left;
-  }
-
-  .course-award {
-    margin: 0.35rem 0 0;
-    font-size: 0.80rem;
-    line-height: 1.45;
     font-style: italic;
-    color: var(--global-text-color);
-    opacity: 0.78;
-    text-align: left;
+    font-weight: 400;
+  }
+
+  .course-syllabus {
+    font-weight: 400;
+  }
+
+  /* Teaching award */
+  .course-award {
+  margin: 0.15rem 0 0;
+  padding-left: 0 !important;
+  font-size: 0.80rem;
+  line-height: 1.45;
+  font-style: italic;
+  color: var(--global-text-color);
+  opacity: 0.78;
   }
 }
 
@@ -1074,4 +1083,39 @@
     width: 110px;
     height: 42px;
   }
+}
+
+/* ==========================================================================
+   Global link style
+   ========================================================================== */
+
+.page__content a,
+.sidebar a {
+  text-decoration: none;
+}
+
+.page__content a:hover,
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* Coauthors */
+.paper-authors {
+  margin-top: -0.1rem;
+  margin-bottom: 0.1rem;
+  font-size: 0.84rem;
+  line-height: 1.4;
+  text-align: left !important;
+}
+
+/* Project origin / paper status */
+.paper-origin {
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+  font-size: 0.80rem;
+  line-height: 1.4;
+  font-style: italic;
+  color: var(--global-text-color);
+  opacity: 0.78;
+  text-align: left !important;
 }
