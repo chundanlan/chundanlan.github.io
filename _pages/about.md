@@ -26,7 +26,7 @@ and the
 <a href="https://www.szse.cn/English/index.html" target="_blank" rel="noopener noreferrer">Shenzhen Stock Exchange</a>.
 </p>
 
-<p>My research examines the unintended consequences of regulatory changes in various contexts, such as accounting standards, securities regulation, and banking. I am interested in how regulatory forces and incentives shape the behavior of capital market participants, especially among financial analysts. I use archival and survey methods and incorporate AI-based tools into my research.</p>
+<p>My research examines the unintended consequences of regulatory changes in various contexts, such as accounting standards, securities regulation, and banking. I am interested in how regulatory forces and incentives shape the behavior of capital market participants, with a focus on financial analysts. I use archival and survey methods and incorporate AI-based tools into my research.</p>
 
 <p>My teaching interests include financial accounting, accounting data analytics, and managerial accounting. At the University of Minnesota, I independently taught Introduction to Financial Reporting and received the Ph.D. Excellence in Teaching Award.</p>
 
