@@ -22,7 +22,7 @@ I examine whether the adoption of the Current Expected Credit Losses (CECL) stan
   </p>
 
   <p>
-    <strong>Presentations:</strong> University of Minnesota, Financial Accounting Standards Board, and HARC 2027 (scheduled), EAA Talent Workshop 2026 (scheduled)
+    <strong>Presentations:</strong> University of Minnesota, Financial Accounting Standards Board, HARC 2027 (scheduled), and FARS Midyear Meeting 2027 (scheduled)
   </p>
 </div>
 
